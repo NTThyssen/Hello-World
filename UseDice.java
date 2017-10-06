@@ -14,6 +14,7 @@
 // 3. The dice is not symetric. It will roll too few ones and six'es
 
 
+//TestMergeCommit
 package terning;
 
 import java.util.Scanner;
