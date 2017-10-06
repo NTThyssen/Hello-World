@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class Test2 {
-	int[] values = {0, 0, 0, 0, 0, 0};
 	@Before
 	public void setUp() throws Exception 
 	{
@@ -33,6 +32,7 @@ public class Test2 {
 
 	@Test
 	public void testRoll() {
+		int[] values = {0, 0, 0, 0, 0, 0};
 		int currentRoll = 0;
 		boolean deviationTooBig = false;
 		for(int i = 0; i < 60000; i++) {
@@ -49,6 +49,7 @@ public class Test2 {
 	}
 	@Test
 	public void testDeviation() {
+		int[] values = {0, 0, 0, 0, 0, 0};
 		int currentRoll = 0;
 		boolean deviationTooBig = false;
 		for(int i = 0; i < 60000; i++) {
