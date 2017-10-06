@@ -1,6 +1,7 @@
 package terning;
 
 //Hejsa
+// Hey Caro!! :P
 public class Dice {
 	// roll the die and return the value (1-6)
 	public int roll() {
